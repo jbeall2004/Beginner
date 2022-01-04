@@ -1,0 +1,101 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int month;
+  string monthstr = "January";
+  string monthstr2 = "February";
+  string monthstr3 = "March";
+  string monthstr4 = "April";
+  string monthstr5 = "May";
+  string monthstr6 = "June";
+  string monthstr7 = "July";
+  string monthstr8 = "August";
+  string monthstr9 = "September";
+  string monthstr10 = "October";
+  string monthstr11 = "November";
+  string monthstr12 = "December";
+  int day;
+  int year;
+  int days = 365;
+  int daysin;
+  cout << "Type date here:\n ";
+  cout << "Month: ";
+  cin >> month;
+  cout << "Day: ";
+  cin >> day;
+  cout << "Year: ";
+  cin >> year;
+  while(true){
+  if(month == 1) {
+    cout << "The date is " << monthstr << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 2) {
+    cout << "The date is " << monthstr2 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 3) {
+    cout << "The date is " << monthstr3 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 4) {
+    cout << "The date is " << monthstr4 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 5) {
+    cout << "The date is " << monthstr5 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 6) {
+    cout << "The date is " << monthstr6 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 7) {
+     cout << "The date is " << monthstr7 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 8) {
+    cout << "The date is " << monthstr8 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 9) {
+    cout << "The date is " << monthstr9 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 10) {
+    cout << "The date is " << monthstr10 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 11) {
+    cout << "The date is " << monthstr11 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  }else if(month == 12) {
+    cout << "The date is " << monthstr12 << " " << day << "," << year << ".\n";
+        cout << "How many days we are into the year: ";
+        cin >> daysin;
+        cout << "There are " << days - daysin << " days left in the year.";
+  } else {
+      cout << "Invalid Date, please try again. \n";
+      cout << "Type date here:\n ";
+  cout << "Month: ";
+  cin >> month;
+  cout << "Day: ";
+  cin >> day;
+  cout << "Year: ";
+  cin >> year;
+  }
+  }
+  
+}
